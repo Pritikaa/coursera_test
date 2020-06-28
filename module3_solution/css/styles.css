@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+}
+
+/*body*/
+body{
+    font-size: 16px;
+    color: aliceblue;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*header*/
+#header-nav{
+    background-color: rgb(75, 80, 85);
+    border-radius: 0;
+    border: 0;
+}
+
+div.navbar-header{
+    margin: 15px;
+    
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+h1.title {
+    color: seashell;
+    padding-left: 15px;
+}
+
+#nav-list .navbar-nav {
+    align-items: right;
+} 
+
+#nav-list a {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#nav-list a:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navbar-header button.navbar-toggle {
+    border: 1.5px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+    clear:both;
+}
+/*header end*/
+
+/*main content*/
+h2.page-heading {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(172, 192, 230);
+}
+
+h3.title {
+    text-align: center;
+    font-weight: 500;
+}
+#col p {
+    font-style: oblique;
+    color: silver;
+}
+
+/*main content end*/
+
+/*media queries for desktop view (md)*/
+@media (min-width: 992px) and (max-width: 1199px) {}  
+
+/*media queries for tablet view (md)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    #c2, #c3 {
+        margin-top: 15px;
+    }
+} 
+
+/*media queries for phone view (xs)*/
+@media (max-width: 767px) {
+    #col {
+        margin-top: 15px;
+        margin-bottom: 15px;;
+    }
+}
