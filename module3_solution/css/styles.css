@@ -82,6 +82,7 @@ h3.title {
 @media (min-width: 768px) and (max-width: 991px) {
     #c2, #c3 {
         margin-top: 15px;
+        margin-bottom: 15px;
     }
 } 
 
